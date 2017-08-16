@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		211267C11F4126B300365FAC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211267C01F4126B300365FAC /* AppDelegate.swift */; };
-		211267C31F4126B300365FAC /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 211267C21F4126B300365FAC /* GameScene.sks */; };
-		211267C51F4126B300365FAC /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 211267C41F4126B300365FAC /* Actions.sks */; };
 		211267C71F4126B300365FAC /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211267C61F4126B300365FAC /* GameScene.swift */; };
 		211267C91F4126B300365FAC /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211267C81F4126B300365FAC /* GameViewController.swift */; };
 		211267CC1F4126B400365FAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 211267CA1F4126B400365FAC /* Main.storyboard */; };
@@ -20,8 +18,6 @@
 /* Begin PBXFileReference section */
 		211267BD1F4126B300365FAC /* NightyKnight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NightyKnight.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		211267C01F4126B300365FAC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		211267C21F4126B300365FAC /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		211267C41F4126B300365FAC /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		211267C61F4126B300365FAC /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		211267C81F4126B300365FAC /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		211267CB1F4126B400365FAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -61,8 +57,6 @@
 			isa = PBXGroup;
 			children = (
 				211267C01F4126B300365FAC /* AppDelegate.swift */,
-				211267C21F4126B300365FAC /* GameScene.sks */,
-				211267C41F4126B300365FAC /* Actions.sks */,
 				211267C61F4126B300365FAC /* GameScene.swift */,
 				211267C81F4126B300365FAC /* GameViewController.swift */,
 				211267CA1F4126B400365FAC /* Main.storyboard */,
@@ -133,10 +127,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				211267CC1F4126B400365FAC /* Main.storyboard in Resources */,
-				211267C31F4126B300365FAC /* GameScene.sks in Resources */,
 				211267CE1F4126B400365FAC /* Assets.xcassets in Resources */,
 				211267D11F4126B400365FAC /* LaunchScreen.storyboard in Resources */,
-				211267C51F4126B300365FAC /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +270,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.redrouge.NightyKnight;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -291,6 +284,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.redrouge.NightyKnight;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -313,6 +307,7 @@
 				211267D71F4126B400365FAC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
