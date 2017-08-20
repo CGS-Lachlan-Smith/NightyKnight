@@ -16,7 +16,8 @@ class GameScene: SKScene {
     
     override func didMove(to view:SKView) {
         setupBackground()
-        
+        let backgroundSound = SKAudioNode(fileNamed: "bg.mp3")
+        self.addChild(backgroundSound)
     }
     
     func setupBackground() {
