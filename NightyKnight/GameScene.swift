@@ -14,11 +14,15 @@ class GameScene: SKScene {
 
 
     
+    let player = SKSpriteNode(imageNamed: "Player")
+    
     override func didMove(to view:SKView) {
         setupBackground()
         let backgroundSound = SKAudioNode(fileNamed: "Test.mp3")
         self.addChild(backgroundSound)
     }
+    
+    
     
     func setupBackground() {
         let background = SKSpriteNode(imageNamed: "background")
