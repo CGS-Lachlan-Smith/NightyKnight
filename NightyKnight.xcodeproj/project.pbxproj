@@ -13,9 +13,8 @@
 		211267CC1F4126B400365FAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 211267CA1F4126B400365FAC /* Main.storyboard */; };
 		211267CE1F4126B400365FAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 211267CD1F4126B400365FAC /* Assets.xcassets */; };
 		211267D11F4126B400365FAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 211267CF1F4126B400365FAC /* LaunchScreen.storyboard */; };
+		2133F7781F660EE100FB2A73 /* MyUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2133F7771F660EE100FB2A73 /* MyUtils.swift */; };
 		8D292CA91F4A5341005BFAE7 /* Test.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8D292CA81F4A5341005BFAE7 /* Test.mp3 */; };
-		8D2C34E51F5394C600DAC248 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 8D2C34E41F5394C600DAC248 /* GameScene.sks */; };
-		8D2C34E71F5394E600DAC248 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 8D2C34E61F5394E600DAC248 /* Actions.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,9 +26,8 @@
 		211267CD1F4126B400365FAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		211267D01F4126B400365FAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		211267D21F4126B400365FAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2133F7771F660EE100FB2A73 /* MyUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyUtils.swift; sourceTree = "<group>"; };
 		8D292CA81F4A5341005BFAE7 /* Test.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Test.mp3; sourceTree = "<group>"; };
-		8D2C34E41F5394C600DAC248 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = GameScene.sks; path = ../GameScene.sks; sourceTree = "<group>"; };
-		8D2C34E61F5394E600DAC248 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = Actions.sks; path = ../Actions.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,8 +61,7 @@
 		211267BF1F4126B300365FAC /* NightyKnight */ = {
 			isa = PBXGroup;
 			children = (
-				8D2C34E61F5394E600DAC248 /* Actions.sks */,
-				8D2C34E41F5394C600DAC248 /* GameScene.sks */,
+				2133F7771F660EE100FB2A73 /* MyUtils.swift */,
 				211267C01F4126B300365FAC /* AppDelegate.swift */,
 				211267C61F4126B300365FAC /* GameScene.swift */,
 				211267C81F4126B300365FAC /* GameViewController.swift */,
@@ -136,8 +133,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				211267CC1F4126B400365FAC /* Main.storyboard in Resources */,
-				8D2C34E71F5394E600DAC248 /* Actions.sks in Resources */,
-				8D2C34E51F5394C600DAC248 /* GameScene.sks in Resources */,
 				211267CE1F4126B400365FAC /* Assets.xcassets in Resources */,
 				8D292CA91F4A5341005BFAE7 /* Test.mp3 in Resources */,
 				211267D11F4126B400365FAC /* LaunchScreen.storyboard in Resources */,
@@ -154,6 +149,7 @@
 				211267C71F4126B300365FAC /* GameScene.swift in Sources */,
 				211267C91F4126B300365FAC /* GameViewController.swift in Sources */,
 				211267C11F4126B300365FAC /* AppDelegate.swift in Sources */,
+				2133F7781F660EE100FB2A73 /* MyUtils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
